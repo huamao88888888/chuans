@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.newindex{width:100%;height: 100vh;background: url("https://img08.mifile.cn/v1/MI_542ED8B1722DC/fca81bd99e529df8cf61edcb44d53079.jpg") center top no-repeat #242969; overflow: hidden;}
+.topcloud{position:fixed;width:100%;height:210px;left: 0px;top:0px;z-index:9;display: none;}
+.topcloud::after{z-index: 10; animation: FRipple 120s 0s linear infinite; content: "";width:500%;height: 100%;background: url("../img/index-banner-cloud.png") center top repeat-x;position: absolute;left: 0;top: 0;}
+@keyframes FRipple{
+	100%{transform: translateX(-50%);}
+}
+.newlogo{width:150px;height: 150px;position:fixed;left:50%;top:50px;z-index: 99;margin-left: -75px;}
+
+.indexmenu{margin: 280px auto auto;width:1240px;text-align: center;position: relative;}
+.indexmenu a.alink{display: block;height:130px;/*background: rgba(0,0,0,0.2);*/position: absolute;z-index: 999;}
+.indexmenu a.alink span{position: absolute;display: block;color: #fff;font-size:20px;font-weight:400;text-shadow:1px 1px 2px rgba(0,0,0,0.8);letter-spacing: 1px;}
+
+.indexmenu a.a1{width:210px;left:15px;top:185px;}
+.indexmenu a.a1 span{left:-50px;top:50px;}
+
+.indexmenu a.a2{width:150px;left:152px;top:15px;}
+.indexmenu a.a2 span{left:0px;top:-22px;width:100%;text-align: center;}
+
+/*.indexmenu a.a3{width:150px;height:150px;left:290px;top:260px;}*/
+.indexmenu a.a4{width:150px;height:150px;left:390px;top:60px;}
+.indexmenu a.a4 span{left:0px;top:-12px;width:100%;text-align: center;}
+
+.indexmenu a.a5{width:140px;left:600px;top:200px;}
+.indexmenu a.a5 span{left:-80px;bottom:10px;width:100%;text-align: center;}
+
+.indexmenu a.a6{width:150px;left:695px;top:10px;}
+.indexmenu a.a6 span{left:-1px;top:-18px;width:100%;text-align: center;}
+
+.indexmenu a.a7{width:220px;height:110px;right:120px;top:140px;}
+.indexmenu a.a7 span{left:-142px;top:40px;width:100%;text-align: center;}
+
+.indexmenu a.a8{width:220px;height:110px;right:210px;top:300px;}
+.indexmenu a.a8 span{right:-80px;top:40px;width:100%;text-align: center;}
+
+.indexmenu a:hover span{color:yellow;text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
