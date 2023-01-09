@@ -9,16 +9,34 @@
 <meta content="" name="description" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1" name="viewport" />
-<link rel="shortcut icon" href="http://www.xueer.cc/favicon.ico" />
+<link rel="shortcut icon" href="http://www.chuans.cc/favicon.ico" />
 <link href="/icon.css" rel="stylesheet" type="text/css" />
 <link href="/font.css" rel="stylesheet" type="text/css" />
 <link href="/common.css" rel="stylesheet" type="text/css" />
 <script src="/jquery.min.js" type="text/javascript"></script> 
 <script src="/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+<script type="text/javascript">
+if(window.location.toString().indexOf('pref=padindex') != -1){
+}else{
+	if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){  
+      if(window.location.href.indexOf("?mobile")<0){
+		try{
+			if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
+				window.location.href="/m_pt.html";
+			}else if(/iPad/i.test(navigator.userAgent)){
+              window.location.href="/m_pt.html";
+			}else{
+				window.location.href="/m_pt.html";
+			}
+		}catch(e){}
+	}
+	}
+}
+</script>
 </head>
 <body class="platform">
 <div class="header">
-  <div class="logo"><a href="/"><img src="https://ldbbs.ldmnq.com/bbs/topic/attachment/2023-1/df839cc5-39f0-4bcf-8453-239a7f2ff0f9.png"></a></div>
+  <div class="logo"><a href="/"><img src="http://www.chuans.cc/logo.png"></a></div>
     <div class="menu">
     <ul>
       <li ><a href="/" title="传说--跨界资源融合.引领行业公正">网站首页</a></li>
@@ -98,7 +116,7 @@
 </div>
 <div class="footer">
   <p>© 2023 传说导航网 版权所有</p> 
-<p>网站操作建议仅代表第三方观点与本平台无关，投资有风险，入市需谨慎}</p>
+
 <p>Copytight © 2023 chuans.cc    All Rights Reserved</p>
 
 </div>
