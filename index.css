@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-.newindex{width:100%;height: 100vh;background: url("https://img08.mifile.cn/v1/MI_542ED8B1722DC/fca81bd99e529df8cf61edcb44d53079.jpg") center top no-repeat #242969; overflow: hidden;}
+.newindex{width:100%;height: 100vh;background: url("https://img12.360buyimg.com/ddimg/jfs/t1/113029/16/34931/26301/63ebec11Fe2b88e9b/f5687b6d1ff57586.jpg") center top no-repeat #242969; overflow: hidden;}
 .topcloud{position:fixed;width:100%;height:210px;left: 0px;top:0px;z-index:9;display: none;}
 .topcloud::after{z-index: 10; animation: FRipple 120s 0s linear infinite; content: "";width:500%;height: 100%;background: url("../img/index-banner-cloud.png") center top repeat-x;position: absolute;left: 0;top: 0;}
 @keyframes FRipple{
